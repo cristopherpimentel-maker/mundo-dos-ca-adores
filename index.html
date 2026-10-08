@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo dos Caçadores</title>
+    <title>Mundo dos Caçadores - Portal Oficial</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- CABEÇALHO: logo + menu de navegação -->
+    <header class="topo" id="topo">
+        <a class="logo" href="#topo">
+            <img src="img/associação.jpg" 
+                 alt="Logotipo da Associação Hunter">
+            Associação Hunter
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#tipos-nen">Tipos de Nen</a></li>
+                <li><a href="#caçadores">Caçadores</a></li>
+                <li><a href="#contato">Licença</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- DESTAQUE: mensagem de boas-vindas -->
+        <section class="hero">
+            <h1>Descubra o Desconhecido</h1>
+            <p>Monstros secretos, tesouros escondidos, terras desconhecidas e mistérios do mundo. 
+               Torne-se um Hunter e obtenha acesso ilimitado aos segredos da humanidade.</p>
+            <a class="botao" href="#caçadores">Conheça os Hunters</a>
+        </section>
+
+        <!-- PERSONAGENS: três cards lado a lado -->
+        <section class="secao" id="caçadores">
+            <h2>Hunters em Destaque</h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src="img/gon.jpg" 
+                         alt="Gon Freecss">
+                    <h3>Gon Freecss</h3>
+                    <p>Um jovem otimista e determinado em busca de seu pai, 
+                       um dos maiores Hunters de todos os tempos.</p>
+                </article>
+                <article class="card">
+                    <img src="img/killua.jpg" 
+                         alt="Killua Zoldyck caçando">
+                    <h3>Killua Zoldyck</h3>
+                    <p>Herdeiro da infame família de assassinos Zoldyck, 
+                       mestre em agilidade e manipulação de eletricidade.</p>
+                </article>
+                <article class="card">
+                    <img src="img/kurapika.png" 
+                         alt="Kurapika segurando suas correntes">
+                    <h3>Kurapika</h3>
+                    <p>Último sobrevivente do clã Kurta, focado em recuperar 
+                       os Olhos Escarlates de seu povo e derrotar a Trupe Fantasma.</p>
+                </article>
+            </div>
+        </section>
+
+ <!-- TIPOS DE NEN: seis cards de Nen -->
+        <section class="secao" id="tipos-nen">
+            <h2>Auras de Nen</h2>
+            <div class="grade limpa">
+                <article class="card plano">
+                    <h3>Aprimoração</h3>
+                    <p class="preco">Poder Físico</p>
+                    <ul>
+                        <li>Aumenta a força muscular</li>
+                        <li>Aumenta a resistência do corpo</li>
+                        <li>Ideal para combate corpo a corpo</li>
+                    </ul>
+                </article>
+                <article class="card plano">
+                    <h3>Transmutação</h3>
+                    <p class="preco">Mutação da Aura</p>
+                    <ul>
+                        <li>Altera as propriedades da aura</li>
+                        <li>Imita substâncias (Eletricidade, Goma)</li>
+                        <li>Alta flexibilidade tática</li>
+                    </ul>
+                </article>
+                <article class="card plano">
+                    <h3>Conjuração</h3>
+                    <p class="preco">Criação Material</p>
+                    <ul>
+                        <li>Materializa objetos com aura</li>
+                        <li>Cria armas e itens com regras próprias</li>
+                        <li>Permite impor condições rigorosas</li>
+                    </ul>
+                </article>
+                <article class="card plano">
+                    <h3>Emissão</h3>
+                    <p class="preco">Projeção de Aura</p>
+                    <ul>
+                        <li>Lança e separa a aura do corpo</li>
+                        <li>Ataques e projéteis à distância</li>
+                        <li>Mantém a intensidade longe do usuário</li>
+                    </ul>
+                </article>
+                <article class="card plano">
+                    <h3>Manipulação</h3>
+                    <p class="preco">Controle de Alvos</p>
+                    <ul>
+                        <li>Comanda objetos ou seres vivos</li>
+                        <li>Permite controle mental e tático</li>
+                        <li>Infundida com ordens e condições específicas</li>
+                    </ul>
+                </article>
+                <article class="card plano destaque">
+                    <h3>Especialização</h3>
+                    <p class="preco">Poder Único</p>
+                    <ul>
+                        <li>Habilidades fora do padrão</li>
+                        <li>Capacidades imprevisíveis</li>
+                        <li>Típico de usuários como Kurapika e Chrollo</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ: localização, horário e contato -->
+    <footer id="contato">
+        <p>Sede do Exame Hunter - República de Padokea</p>
+        <p>Exame Anual: Início em 7 de Janeiro</p>
+        <p>contato@hunter-association.org</p>
+        <p>&copy; 2026 Associação Hunter. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
